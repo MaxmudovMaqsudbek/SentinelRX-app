@@ -1,0 +1,82 @@
+{
+  "expo": {
+    "name": "SentinelRX",
+    "slug": "sentinelrx",
+    "owner": "maqsudbek2607",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "sentinelrx",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sentinelrx.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "SentinelRX needs camera access to scan and identify pills",
+        "NSMicrophoneUsageDescription": "SentinelRX needs microphone access for voice commands",
+        "NSSpeechRecognitionUsageDescription": "SentinelRX needs speech recognition to understand your voice commands",
+        "NSLocationWhenInUseUsageDescription": "SentinelRX needs your location to find nearby pharmacies"
+      }
+    },
+    "android": {
+      "package": "com.sentinelrx.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0A192F",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 280,
+          "resizeMode": "contain",
+          "backgroundColor": "#0A192F",
+          "dark": {
+            "backgroundColor": "#0A192F"
+          }
+        }
+      ],
+      "expo-web-browser",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "SentinelRX needs camera access to scan and identify pills"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "SentinelRX needs your location to find nearby pharmacies"
+        }
+      ]
+    ],
+    "experiments": {
+      "reactCompiler": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2cbbf4b0-50d8-4f50-bbed-d5b6b47ee10b"
+      },
+      "GROQ_API_KEY": "process.env.GROQ_API_KEY",
+      "SUPABASE_URL": "process.env.SUPABASE_URL",
+      "SUPABASE_ANON_KEY": "process.env.SUPABASE_ANON_KEY"
+    }
+  }
+}

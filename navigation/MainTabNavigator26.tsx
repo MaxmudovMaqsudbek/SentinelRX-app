@@ -1,0 +1,59 @@
+import React from "react";
+import { createNativeBottomTabNavigator } from "@react-navigation/bottom-tabs/unstable";
+
+import HomeStackNavigator from "@/navigation/HomeStackNavigator";
+import ProfileStackNavigator from "@/navigation/ProfileStackNavigator";
+
+export type MainTabParamList = {
+  HomeTab: undefined;
+  ProfileTab: undefined;
+};
+
+const Tab = createNativeBottomTabNavigator<MainTabParamList>();
+
+/**
+ * Experimental tab navigator using iOS 26+ native bottom tabs with SF Symbols.
+ * This uses the unstable API from @react-navigation/bottom-tabs/unstable.
+ * Note: TypeScript types for this API are incomplete, hence the type assertions.
+ */
+export default function MainTabNavigator26() {
+  return (
+    <Tab.Navigator
+      initialRouteName="HomeTab"
+      screenOptions={{
+        headerShown: false,
+      }}
+    >
+      <Tab.Screen
+        name="HomeTab"
+        component={HomeStackNavigator}
+        options={
+          {
+            title: "Home",
+            icon: {
+              sfSymbolName: "house",
+            },
+            selectedIcon: {
+              sfSymbolName: "house.fill",
+            },
+          } as Record<string, unknown>
+        }
+      />
+      <Tab.Screen
+        name="ProfileTab"
+        component={ProfileStackNavigator}
+        options={
+          {
+            title: "Profile",
+            icon: {
+              sfSymbolName: "person",
+            },
+            selectedIcon: {
+              sfSymbolName: "person.fill",
+            },
+          } as Record<string, unknown>
+        }
+      />
+    </Tab.Navigator>
+  );
+}

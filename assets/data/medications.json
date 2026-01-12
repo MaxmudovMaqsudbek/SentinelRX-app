@@ -1,0 +1,758 @@
+[
+    {
+        "id": "uz_med_json_001",
+        "name": "Nimesil",
+        "genericName": "Nimesulide",
+        "manufacturer": "Berlin-Chemie",
+        "price": 4500,
+        "currency": "UZS",
+        "description": "NSAID for acute pain treatment.",
+        "dosage": "100mg",
+        "shape": "Granules",
+        "color": "Yellow",
+        "warnings": [
+            "Take after food",
+            "Risk of liver damage"
+        ],
+        "interactions": [
+            "Aspirin",
+            "Alcohol"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_json_002",
+        "name": "Trimol",
+        "genericName": "Paracetamol + Diclofenac",
+        "manufacturer": "Meri Farm",
+        "price": 12000,
+        "currency": "UZS",
+        "description": "Combined analgesic/antipyretic.",
+        "dosage": "Tablet",
+        "shape": "Round",
+        "color": "White",
+        "warnings": [
+            "Max 3 per day"
+        ],
+        "interactions": [
+            "Warfarin"
+        ],
+        "category": "OTC"
+    },
+    {
+        "id": "uz_med_001_imp",
+        "name": "Acyclovir Powder",
+        "genericName": "Acyclovir",
+        "manufacturer": "Belmedpreparaty",
+        "price": 15000,
+        "currency": "UZS",
+        "description": "Antiviral for infusions.",
+        "dosage": "250mg",
+        "shape": "Powder",
+        "color": "White",
+        "warnings": [
+            "Hydration required"
+        ],
+        "interactions": [
+            "Nephrotoxic drugs"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_004_imp",
+        "name": "Chorionic Gonadotropin",
+        "genericName": "Chorionic Gonadotropin",
+        "manufacturer": "Moscow Endocrine Plant",
+        "price": 120000,
+        "currency": "UZS",
+        "description": "Hormone for IM injection.",
+        "dosage": "1000 IU",
+        "shape": "Vial",
+        "color": "White Powder",
+        "warnings": [
+            "Refrigerate"
+        ],
+        "interactions": [],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_008_imp",
+        "name": "Iodine ASK (Yod ASK)",
+        "genericName": "Iodine",
+        "manufacturer": "Nika Pharm",
+        "price": 5000,
+        "currency": "UZS",
+        "description": "Iodine supplement.",
+        "dosage": "100mcg",
+        "shape": "Tablet",
+        "color": "White",
+        "warnings": [
+            "Thyroid issues check"
+        ],
+        "interactions": [
+            "Lithium"
+        ],
+        "category": "OTC"
+    },
+    {
+        "id": "uz_med_043_imp",
+        "name": "Loperamide",
+        "genericName": "Loperamide",
+        "manufacturer": "Navbahor Sanoat",
+        "price": 3000,
+        "currency": "UZS",
+        "description": "Antidiarrheal capsules.",
+        "dosage": "2mg",
+        "shape": "Capsule",
+        "color": "Green/White",
+        "warnings": [
+            "Drink water"
+        ],
+        "interactions": [
+            "Ritonavir"
+        ],
+        "category": "OTC"
+    },
+    {
+        "id": "uz_med_045_imp",
+        "name": "Zetra",
+        "genericName": "Loperamide",
+        "manufacturer": "Navbahor Sanoat",
+        "price": 4000,
+        "currency": "UZS",
+        "description": "Antidiarrheal.",
+        "dosage": "2mg",
+        "shape": "Capsule",
+        "color": "Blue",
+        "warnings": [],
+        "interactions": [],
+        "category": "OTC"
+    },
+    {
+        "id": "uz_med_048_imp",
+        "name": "Carbamazepine-Nika",
+        "genericName": "Carbamazepine",
+        "manufacturer": "Nika Pharm",
+        "price": 18000,
+        "currency": "UZS",
+        "description": "Anticonvulsant.",
+        "dosage": "200mg",
+        "shape": "Tablet",
+        "color": "White",
+        "warnings": [
+            "Monitor blood count"
+        ],
+        "interactions": [
+            "Warfarin",
+            "Grapefruit"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_055_imp",
+        "name": "Sodium Chloride (Saline)",
+        "genericName": "Sodium Chloride",
+        "manufacturer": "Dentafill Plyus",
+        "price": 4000,
+        "currency": "UZS",
+        "description": "Infusion solution 0.9%.",
+        "dosage": "200ml",
+        "shape": "Liquid",
+        "color": "Clear",
+        "warnings": [],
+        "interactions": [],
+        "category": "OTC"
+    },
+    {
+        "id": "uz_med_060_imp",
+        "name": "Zifi",
+        "genericName": "Cefixime",
+        "manufacturer": "FDC Limited",
+        "price": 45000,
+        "currency": "UZS",
+        "description": "Cephalosporin antibiotic.",
+        "dosage": "200mg",
+        "shape": "Tablet",
+        "color": "White",
+        "warnings": [
+            "Penicillin allergy cross-reactivity"
+        ],
+        "interactions": [
+            "Warfarin"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_062_imp",
+        "name": "Glycerin",
+        "genericName": "Glycerol",
+        "manufacturer": "Remedy",
+        "price": 2000,
+        "currency": "UZS",
+        "description": "Liquid for external/internal use.",
+        "dosage": "50ml",
+        "shape": "Liquid",
+        "color": "Clear",
+        "warnings": [],
+        "interactions": [],
+        "category": "OTC"
+    },
+    {
+        "id": "uz_med_067_imp",
+        "name": "Ornidex",
+        "genericName": "Ornidazole",
+        "manufacturer": "Ultra Laboratories",
+        "price": 25000,
+        "currency": "UZS",
+        "description": "Antiprotozoal infusion.",
+        "dosage": "500mg/100ml",
+        "shape": "Liquid",
+        "color": "Clear",
+        "warnings": [
+            "No alcohol"
+        ],
+        "interactions": [
+            "Warfarin"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_069_imp",
+        "name": "ACC",
+        "genericName": "Acetylcysteine",
+        "manufacturer": "Sandoz/Salutas",
+        "price": 35000,
+        "currency": "UZS",
+        "description": "Mucolytic for cough.",
+        "dosage": "3g",
+        "shape": "Powder",
+        "color": "White",
+        "warnings": [
+            "Caution with ulcers"
+        ],
+        "interactions": [
+            "Nitroglycerin"
+        ],
+        "category": "OTC"
+    },
+    {
+        "id": "uz_med_070_imp",
+        "name": "Nystatin Ointment",
+        "genericName": "Nystatin",
+        "manufacturer": "Remedy",
+        "price": 7000,
+        "currency": "UZS",
+        "description": "Antifungal ointment.",
+        "dosage": "100,000 IU/g",
+        "shape": "Ointment",
+        "color": "Yellow",
+        "warnings": [
+            "External use"
+        ],
+        "interactions": [],
+        "category": "OTC"
+    },
+    {
+        "id": "uz_med_084_imp",
+        "name": "Cadence",
+        "genericName": "Electrolytes/Amino Acids",
+        "manufacturer": "Jurabek",
+        "price": 55000,
+        "currency": "UZS",
+        "description": "Infusion for support.",
+        "dosage": "100ml",
+        "shape": "Liquid",
+        "color": "Clear",
+        "warnings": [],
+        "interactions": [],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_090_imp",
+        "name": "Fluconazole Combo",
+        "genericName": "Fluconazole+",
+        "manufacturer": "Remedy",
+        "price": 18000,
+        "currency": "UZS",
+        "description": "Antifungal kit.",
+        "dosage": "150mg",
+        "shape": "Capsule",
+        "color": "Blue/White",
+        "warnings": [],
+        "interactions": [
+            "Warfarin",
+            "Statins"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_094_imp",
+        "name": "Telsartan",
+        "genericName": "Telmisartan",
+        "manufacturer": "Dr. Reddy's",
+        "price": 60000,
+        "currency": "UZS",
+        "description": "ARB for hypertension.",
+        "dosage": "40mg",
+        "shape": "Tablet",
+        "color": "White",
+        "warnings": [
+            "Monitor Potassium"
+        ],
+        "interactions": [
+            "Ramipril",
+            "Lithium"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_100_imp",
+        "name": "Bicillin-5",
+        "genericName": "Benzathine Penicillin",
+        "manufacturer": "Kievmedpreparat",
+        "price": 12000,
+        "currency": "UZS",
+        "description": "Long-acting antibiotic injection.",
+        "dosage": "1,500,000 IU",
+        "shape": "Powder",
+        "color": "White",
+        "warnings": [
+            "Allergy test required"
+        ],
+        "interactions": [],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_101_imp",
+        "name": "Citcol",
+        "genericName": "Citicoline",
+        "manufacturer": "Serene Healthcare",
+        "price": 45000,
+        "currency": "UZS",
+        "description": "Neuroprotector for stroke recovery.",
+        "dosage": "250mg/ml",
+        "shape": "Ampoule",
+        "color": "Clear",
+        "warnings": [],
+        "interactions": [
+            "Levodopa"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_103_imp",
+        "name": "Mezym Forte 10000",
+        "genericName": "Pancreatin",
+        "manufacturer": "Berlin-Chemie",
+        "price": 25000,
+        "currency": "UZS",
+        "description": "Enzyme replacement.",
+        "dosage": "10000 IU",
+        "shape": "Tablet",
+        "color": "Pink",
+        "warnings": [
+            "Take with food"
+        ],
+        "interactions": [
+            "Acarbose"
+        ],
+        "category": "OTC"
+    },
+    {
+        "id": "uz_med_106_imp",
+        "name": "Dilutix",
+        "genericName": "Clopidogrel",
+        "manufacturer": "Ali Raif",
+        "price": 85000,
+        "currency": "UZS",
+        "description": "Antiplatelet.",
+        "dosage": "75mg",
+        "shape": "Tablet",
+        "color": "Pink",
+        "warnings": [
+            "Bleeding risk"
+        ],
+        "interactions": [
+            "Omeprazole",
+            "NSAIDs"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_107_imp",
+        "name": "Hepaflex",
+        "genericName": "Entecavir",
+        "manufacturer": "Remedy Group",
+        "price": 250000,
+        "currency": "UZS",
+        "description": "Antiviral for Hepatitis B.",
+        "dosage": "0.5mg",
+        "shape": "Tablet",
+        "color": "White",
+        "warnings": [
+            "Take on empty stomach"
+        ],
+        "interactions": [
+            "Renal drugs"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_115_imp",
+        "name": "Dexketoprofen (Dextanol)",
+        "genericName": "Dexketoprofen",
+        "manufacturer": "Idol Ilac",
+        "price": 30000,
+        "currency": "UZS",
+        "description": "NSAID injection.",
+        "dosage": "50mg",
+        "shape": "Ampoule",
+        "color": "Clear",
+        "warnings": [
+            "Stomach risk"
+        ],
+        "interactions": [
+            "Other NSAIDs"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_116_imp",
+        "name": "Ascocin Max",
+        "genericName": "Ascorbic Acid + Zinc",
+        "manufacturer": "Kusum Healthcare",
+        "price": 45000,
+        "currency": "UZS",
+        "description": "Immune boost effervescent.",
+        "dosage": "1000mg",
+        "shape": "Round Large",
+        "color": "Yellow",
+        "warnings": [],
+        "interactions": [
+            "Warfarin (high dose Vit C)"
+        ],
+        "category": "OTC"
+    },
+    {
+        "id": "uz_med_120_imp",
+        "name": "Pramisum",
+        "genericName": "Pramipexole",
+        "manufacturer": "Kusum Healthcare",
+        "price": 90000,
+        "currency": "UZS",
+        "description": "For Parkinson's Disease.",
+        "dosage": "1mg",
+        "shape": "Tablet",
+        "color": "White",
+        "warnings": [
+            "Drowsiness"
+        ],
+        "interactions": [
+            "Alcohol",
+            "Sedatives"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_124_imp",
+        "name": "Calciker",
+        "genericName": "Vitamin D3 (Cholecalciferol)",
+        "manufacturer": "Indoco Remedies",
+        "price": 35000,
+        "currency": "UZS",
+        "description": "Vitamin D supplement suspension.",
+        "dosage": "Liquid",
+        "shape": "Liquid",
+        "color": "Milky",
+        "warnings": [],
+        "interactions": [
+            "Digoxin"
+        ],
+        "category": "OTC"
+    },
+    {
+        "id": "uz_med_126_imp",
+        "name": "Rint Nasal Spray",
+        "genericName": "Oxymetazoline",
+        "manufacturer": "Farmak",
+        "price": 20000,
+        "currency": "UZS",
+        "description": "Nasal decongestant.",
+        "dosage": "0.5mg/ml",
+        "shape": "Spray",
+        "color": "Clear",
+        "warnings": [
+            "Use max 3-5 days"
+        ],
+        "interactions": [
+            "MAO Inhibitors"
+        ],
+        "category": "OTC"
+    },
+    {
+        "id": "uz_med_127_imp",
+        "name": "Levomekol",
+        "genericName": "Chloramphenicol + Methyluracil",
+        "manufacturer": "Nizhpharm",
+        "price": 15000,
+        "currency": "UZS",
+        "description": "Antibiotic healing ointment.",
+        "dosage": "40g",
+        "shape": "Tube",
+        "color": "White Ointment",
+        "warnings": [],
+        "interactions": [],
+        "category": "OTC"
+    },
+    {
+        "id": "uz_med_128_imp",
+        "name": "Eslotin",
+        "genericName": "Desloratadine",
+        "manufacturer": "World Medicine",
+        "price": 35000,
+        "currency": "UZS",
+        "description": "Antihistamine syrup.",
+        "dosage": "2.5mg/5ml",
+        "shape": "Liquid",
+        "color": "Clear",
+        "warnings": [
+            "Non-drowsy but caution"
+        ],
+        "interactions": [
+            "Alcohol"
+        ],
+        "category": "OTC"
+    },
+    {
+        "id": "uz_med_136_imp",
+        "name": "Fluoro-5",
+        "genericName": "Fluorouracil",
+        "manufacturer": "Deva",
+        "price": 45000,
+        "currency": "UZS",
+        "description": "Chemotherapy agent.",
+        "dosage": "1000mg",
+        "shape": "Vial",
+        "color": "Clear",
+        "warnings": [
+            "Cytotoxic"
+        ],
+        "interactions": [
+            "Warfarin (Severe)"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_138_imp",
+        "name": "MR Acyclovir",
+        "genericName": "Acyclovir",
+        "manufacturer": "Merrymed Farm",
+        "price": 8000,
+        "currency": "UZS",
+        "description": "Antiviral tablets.",
+        "dosage": "200mg",
+        "shape": "Tablet",
+        "color": "Blue",
+        "warnings": [],
+        "interactions": [
+            "Nephrotoxic drugs"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_142_imp",
+        "name": "Levocarnitine",
+        "genericName": "Levocarnitine",
+        "manufacturer": "Dentafill Plyus",
+        "price": 25000,
+        "currency": "UZS",
+        "description": "Metabolic booster infusion.",
+        "dosage": "100ml",
+        "shape": "Liquid",
+        "color": "Clear",
+        "warnings": [],
+        "interactions": [
+            "Warfarin"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_151_imp",
+        "name": "Vemlidy",
+        "genericName": "Tenofovir Alafenamide",
+        "manufacturer": "Patheon Inc",
+        "price": 1200000,
+        "currency": "UZS",
+        "description": "Hepatitis B antiviral.",
+        "dosage": "25mg",
+        "shape": "Tablet",
+        "color": "Yellow",
+        "warnings": [
+            "Take with food"
+        ],
+        "interactions": [
+            "Anticonvulsants"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_152_imp",
+        "name": "Rosuvastatin Krka",
+        "genericName": "Rosuvastatin",
+        "manufacturer": "KRKA",
+        "price": 75000,
+        "currency": "UZS",
+        "description": "Statin for cholesterol.",
+        "dosage": "10mg",
+        "shape": "Tablet",
+        "color": "Pink",
+        "warnings": [
+            "Muscle pain risk"
+        ],
+        "interactions": [
+            "Cyclosporine",
+            "Warfarin"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_181_imp",
+        "name": "Prednoflam",
+        "genericName": "Prednisolone",
+        "manufacturer": "Indiana Ophthalmics",
+        "price": 20000,
+        "currency": "UZS",
+        "description": "Eye drops steroid.",
+        "dosage": "10ml",
+        "shape": "Dropper",
+        "color": "Clear",
+        "warnings": [
+            "Check intraocular pressure"
+        ],
+        "interactions": [],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_183_imp",
+        "name": "Nitrosorbide",
+        "genericName": "Isosorbide Dinitrate",
+        "manufacturer": "Borshchahivskiy",
+        "price": 5000,
+        "currency": "UZS",
+        "description": "Nitrate for angina.",
+        "dosage": "10mg",
+        "shape": "Tablet",
+        "color": "White",
+        "warnings": [
+            "Headache common"
+        ],
+        "interactions": [
+            "Sildenafil (Viagra) - FATAL"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_184_imp",
+        "name": "Ventrix (Piracetam)",
+        "genericName": "Piracetam",
+        "manufacturer": "Temur Med Farm",
+        "price": 30000,
+        "currency": "UZS",
+        "description": "Nootropic infusion.",
+        "dosage": "200ml",
+        "shape": "Liquid",
+        "color": "Clear",
+        "warnings": [
+            "Kidney caution"
+        ],
+        "interactions": [
+            "Thyroid hormones"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_191_imp",
+        "name": "Alpholex",
+        "genericName": "Choline Alfoscerate",
+        "manufacturer": "Rompharm",
+        "price": 85000,
+        "currency": "UZS",
+        "description": "Brain metabolic stimulant.",
+        "dosage": "4ml",
+        "shape": "Ampoule",
+        "color": "Clear",
+        "warnings": [],
+        "interactions": [],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_194_imp",
+        "name": "Digoxin",
+        "genericName": "Digoxin",
+        "manufacturer": "Zdorovye",
+        "price": 3000,
+        "currency": "UZS",
+        "description": "Heart failure medication.",
+        "dosage": "0.1mg",
+        "shape": "Tablet",
+        "color": "White small",
+        "warnings": [
+            "Narrow therapeutic index"
+        ],
+        "interactions": [
+            "Verapamil",
+            "Amiodarone"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_196_imp",
+        "name": "Cebrolan",
+        "genericName": "Cebrolan (Cerebrolysine-like)",
+        "manufacturer": "Remedy Group",
+        "price": 60000,
+        "currency": "UZS",
+        "description": "Peptides for brain repair.",
+        "dosage": "2ml",
+        "shape": "Ampoule",
+        "color": "Yellowish",
+        "warnings": [],
+        "interactions": [
+            "MAOIs"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_297_imp",
+        "name": "Aziagio",
+        "genericName": "Azithromycin",
+        "manufacturer": "Agio",
+        "price": 35000,
+        "currency": "UZS",
+        "description": "Antibiotic.",
+        "dosage": "500mg",
+        "shape": "Tablet",
+        "color": "White",
+        "warnings": [],
+        "interactions": [
+            "Antacids",
+            "Warfarin"
+        ],
+        "category": "Prescription"
+    },
+    {
+        "id": "uz_med_299_imp",
+        "name": "Ducressa",
+        "genericName": "Dexamethasone + Levofloxacin",
+        "manufacturer": "Tubilux Pharma",
+        "price": 95000,
+        "currency": "UZS",
+        "description": "Antibiotic + Steroid eye drops.",
+        "dosage": "5ml",
+        "shape": "Dropper",
+        "color": "Clear",
+        "warnings": [],
+        "interactions": [],
+        "category": "Prescription"
+    }
+]

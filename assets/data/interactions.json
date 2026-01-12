@@ -1,0 +1,740 @@
+{
+    "Nimesulide": [
+        {
+            "drug": "Aspirin",
+            "severity": "High",
+            "description": "High risk of gastric bleeding/ulcer."
+        },
+        {
+            "drug": "Diclofenac",
+            "severity": "High",
+            "description": "Double NSAID - Severe stomach risk."
+        },
+        {
+            "drug": "Ibuprofen",
+            "severity": "High",
+            "description": "Double NSAID risk."
+        },
+        {
+            "drug": "Warfarin",
+            "severity": "High",
+            "description": "Bleeding risk."
+        },
+        {
+            "drug": "Alcohol",
+            "severity": "High",
+            "description": "Liver toxicity risk."
+        }
+    ],
+    "Diclofenac": [
+        {
+            "drug": "Aspirin",
+            "severity": "High",
+            "description": "High risk of gastric bleeding."
+        },
+        {
+            "drug": "Nimesulide",
+            "severity": "High",
+            "description": "Double NSAID risk."
+        },
+        {
+            "drug": "Ibuprofen",
+            "severity": "High",
+            "description": "Double NSAID risk."
+        },
+        {
+            "drug": "Lisinopril",
+            "severity": "Moderate",
+            "description": "Kidney strain + reduced BP control."
+        },
+        {
+            "drug": "Metformin",
+            "severity": "Moderate",
+            "description": "May affect kidney function and metformin clearance."
+        }
+    ],
+    "Warfarin": [
+        {
+            "drug": "Aspirin",
+            "severity": "High",
+            "description": "Major bleeding risk."
+        },
+        {
+            "drug": "Ibuprofen",
+            "severity": "High",
+            "description": "Serious bleeding risk."
+        },
+        {
+            "drug": "Acetaminophen",
+            "severity": "Moderate",
+            "description": "May enhance anticoagulant effect."
+        },
+        {
+            "drug": "Metformin",
+            "severity": "Low",
+            "description": "May slightly increase bleeding risk."
+        }
+    ],
+    "Aspirin": [
+        {
+            "drug": "Ibuprofen",
+            "severity": "High",
+            "description": "Stomach ulcer risk + reduced cardioprotection."
+        },
+        {
+            "drug": "Warfarin",
+            "severity": "High",
+            "description": "Major bleeding risk."
+        },
+        {
+            "drug": "Heparin",
+            "severity": "High",
+            "description": "Bleeding risk."
+        },
+        {
+            "drug": "Metformin",
+            "severity": "Moderate",
+            "description": "May increase hypoglycemia risk. Monitor blood sugar."
+        },
+        {
+            "drug": "Lisinopril",
+            "severity": "Moderate",
+            "description": "May reduce blood pressure lowering effect."
+        },
+        {
+            "drug": "Diltiazem",
+            "severity": "Low",
+            "description": "May enhance blood pressure lowering."
+        }
+    ],
+    "Lisinopril": [
+        {
+            "drug": "Ibuprofen",
+            "severity": "Moderate",
+            "description": "Reduced BP control + Kidney strain."
+        },
+        {
+            "drug": "Potassium",
+            "severity": "High",
+            "description": "Risk of hyperkalemia (high potassium)."
+        },
+        {
+            "drug": "Spironolactone",
+            "severity": "High",
+            "description": "Severe risk of hyperkalemia."
+        },
+        {
+            "drug": "Metformin",
+            "severity": "Low",
+            "description": "May increase lactic acidosis risk in kidney impairment."
+        }
+    ],
+    "Metformin": [
+        {
+            "drug": "Furosemide",
+            "severity": "Moderate",
+            "description": "May increase lactic acidosis risk."
+        },
+        {
+            "drug": "Alcohol",
+            "severity": "High",
+            "description": "Risk of lactic acidosis."
+        },
+        {
+            "drug": "Aspirin",
+            "severity": "Moderate",
+            "description": "May increase hypoglycemia risk."
+        },
+        {
+            "drug": "Diltiazem",
+            "severity": "Moderate",
+            "description": "May increase metformin levels. Monitor blood sugar."
+        },
+        {
+            "drug": "Victoza",
+            "severity": "Moderate",
+            "description": "Both lower blood sugar - increased hypoglycemia risk."
+        },
+        {
+            "drug": "Wellbutrin",
+            "severity": "Low",
+            "description": "Monitor for increased seizure risk."
+        },
+        {
+            "drug": "Nitrofurantoin",
+            "severity": "Low",
+            "description": "Both affect kidney function. Monitor."
+        },
+        {
+            "drug": "Lisinopril",
+            "severity": "Low",
+            "description": "May increase lactic acidosis risk."
+        },
+        {
+            "drug": "Contrast Dye",
+            "severity": "High",
+            "description": "Stop metformin before CT with contrast."
+        }
+    ],
+    "Diltiazem": [
+        {
+            "drug": "Metformin",
+            "severity": "Moderate",
+            "description": "May increase metformin plasma levels."
+        },
+        {
+            "drug": "Simvastatin",
+            "severity": "High",
+            "description": "Increased risk of muscle damage (rhabdomyolysis)."
+        },
+        {
+            "drug": "Lovastatin",
+            "severity": "High",
+            "description": "Increased risk of muscle damage."
+        },
+        {
+            "drug": "Beta Blockers",
+            "severity": "High",
+            "description": "Risk of severe bradycardia and heart block."
+        },
+        {
+            "drug": "Atenolol",
+            "severity": "High",
+            "description": "Risk of severe bradycardia."
+        },
+        {
+            "drug": "Metoprolol",
+            "severity": "High",
+            "description": "Risk of severe bradycardia."
+        },
+        {
+            "drug": "Carvedilol",
+            "severity": "High",
+            "description": "Risk of severe bradycardia."
+        },
+        {
+            "drug": "Aspirin",
+            "severity": "Low",
+            "description": "May enhance blood pressure lowering effect."
+        },
+        {
+            "drug": "Cyclosporine",
+            "severity": "High",
+            "description": "Increased cyclosporine levels - toxicity risk."
+        },
+        {
+            "drug": "Lithium",
+            "severity": "Moderate",
+            "description": "May increase lithium levels."
+        },
+        {
+            "drug": "Wellbutrin",
+            "severity": "Moderate",
+            "description": "May increase bupropion levels. Seizure risk."
+        }
+    ],
+    "Wellbutrin": [
+        {
+            "drug": "Alcohol",
+            "severity": "High",
+            "description": "Increased seizure risk. Avoid alcohol."
+        },
+        {
+            "drug": "MAOIs",
+            "severity": "Critical",
+            "description": "DANGEROUS - Hypertensive crisis. Wait 14 days."
+        },
+        {
+            "drug": "Tramadol",
+            "severity": "High",
+            "description": "Increased seizure risk."
+        },
+        {
+            "drug": "Diltiazem",
+            "severity": "Moderate",
+            "description": "May increase bupropion levels and seizure risk."
+        },
+        {
+            "drug": "Metformin",
+            "severity": "Low",
+            "description": "Monitor blood sugar - may affect glucose."
+        },
+        {
+            "drug": "SSRIs",
+            "severity": "Moderate",
+            "description": "Increased serotonin - monitor for serotonin syndrome."
+        },
+        {
+            "drug": "Prozac",
+            "severity": "Moderate",
+            "description": "May increase Wellbutrin levels."
+        },
+        {
+            "drug": "Zoloft",
+            "severity": "Moderate",
+            "description": "May interact - monitor."
+        },
+        {
+            "drug": "Lexapro",
+            "severity": "Moderate",
+            "description": "May interact - monitor."
+        },
+        {
+            "drug": "Nicotine",
+            "severity": "Moderate",
+            "description": "Wellbutrin used for smoking cessation - monitor."
+        }
+    ],
+    "Victoza": [
+        {
+            "drug": "Insulin",
+            "severity": "High",
+            "description": "Increased hypoglycemia risk. Reduce insulin dose."
+        },
+        {
+            "drug": "Metformin",
+            "severity": "Moderate",
+            "description": "Both lower blood sugar. Monitor for hypoglycemia."
+        },
+        {
+            "drug": "Sulfonylureas",
+            "severity": "High",
+            "description": "High hypoglycemia risk. May need dose reduction."
+        },
+        {
+            "drug": "Glipizide",
+            "severity": "High",
+            "description": "Increased hypoglycemia risk."
+        },
+        {
+            "drug": "Glyburide",
+            "severity": "High",
+            "description": "Increased hypoglycemia risk."
+        },
+        {
+            "drug": "Aspirin",
+            "severity": "Low",
+            "description": "May slightly increase hypoglycemia risk."
+        },
+        {
+            "drug": "Warfarin",
+            "severity": "Moderate",
+            "description": "May affect warfarin absorption. Monitor INR."
+        }
+    ],
+    "Nitrofurantoin": [
+        {
+            "drug": "Metformin",
+            "severity": "Low",
+            "description": "Both affect kidney function. Use with caution."
+        },
+        {
+            "drug": "Magnesium",
+            "severity": "Moderate",
+            "description": "Antacids reduce nitrofurantoin absorption."
+        },
+        {
+            "drug": "Antacids",
+            "severity": "Moderate",
+            "description": "Reduces nitrofurantoin effectiveness."
+        },
+        {
+            "drug": "Probenecid",
+            "severity": "High",
+            "description": "Increases nitrofurantoin levels - toxicity risk."
+        },
+        {
+            "drug": "Fluoroquinolones",
+            "severity": "Moderate",
+            "description": "May reduce ciprofloxacin effectiveness."
+        },
+        {
+            "drug": "Ciprofloxacin",
+            "severity": "Moderate",
+            "description": "May antagonize each other's effects."
+        }
+    ],
+    "Omeprazole": [
+        {
+            "drug": "Clopidogrel",
+            "severity": "High",
+            "description": "Reduces effectiveness of Clopidogrel."
+        },
+        {
+            "drug": "Warfarin",
+            "severity": "Moderate",
+            "description": "May increase Warfarin effects."
+        },
+        {
+            "drug": "Metformin",
+            "severity": "Low",
+            "description": "May affect B12 absorption long-term."
+        },
+        {
+            "drug": "Methotrexate",
+            "severity": "High",
+            "description": "May increase methotrexate toxicity."
+        }
+    ],
+    "Simvastatin": [
+        {
+            "drug": "Grapefruit",
+            "severity": "High",
+            "description": "Increases drug levels - toxicity risk."
+        },
+        {
+            "drug": "Erythromycin",
+            "severity": "High",
+            "description": "Increased risk of myopathy/rhabdomyolysis."
+        },
+        {
+            "drug": "Amlodipine",
+            "severity": "Moderate",
+            "description": "Dose limitation recommended."
+        },
+        {
+            "drug": "Diltiazem",
+            "severity": "High",
+            "description": "Increased risk of muscle damage."
+        },
+        {
+            "drug": "Amiodarone",
+            "severity": "High",
+            "description": "Limit simvastatin to 10mg daily."
+        }
+    ],
+    "Sildenafil": [
+        {
+            "drug": "Nitroglycerin",
+            "severity": "Critical",
+            "description": "FATAL drop in blood pressure."
+        },
+        {
+            "drug": "Isosorbide",
+            "severity": "Critical",
+            "description": "FATAL drop in blood pressure."
+        },
+        {
+            "drug": "Nitrates",
+            "severity": "Critical",
+            "description": "LIFE-THREATENING hypotension."
+        },
+        {
+            "drug": "Diltiazem",
+            "severity": "Moderate",
+            "description": "May enhance blood pressure lowering."
+        }
+    ],
+    "Nitroglycerin": [
+        {
+            "drug": "Sildenafil",
+            "severity": "Critical",
+            "description": "FATAL drop in blood pressure."
+        },
+        {
+            "drug": "Tadalafil",
+            "severity": "Critical",
+            "description": "FATAL drop in blood pressure."
+        },
+        {
+            "drug": "Vardenafil",
+            "severity": "Critical",
+            "description": "FATAL drop in blood pressure."
+        }
+    ],
+    "Ibuprofen": [
+        {
+            "drug": "Aspirin",
+            "severity": "High",
+            "description": "Stomach ulcer risk + reduced cardioprotection."
+        },
+        {
+            "drug": "Warfarin",
+            "severity": "High",
+            "description": "Serious bleeding risk."
+        },
+        {
+            "drug": "Lisinopril",
+            "severity": "Moderate",
+            "description": "Reduced BP control + Kidney strain."
+        },
+        {
+            "drug": "Metformin",
+            "severity": "Moderate",
+            "description": "May affect kidney function."
+        },
+        {
+            "drug": "Lithium",
+            "severity": "High",
+            "description": "Increases lithium levels - toxicity risk."
+        }
+    ],
+    "Acetaminophen": [
+        {
+            "drug": "Warfarin",
+            "severity": "Moderate",
+            "description": "May enhance anticoagulant effect."
+        },
+        {
+            "drug": "Alcohol",
+            "severity": "High",
+            "description": "Liver damage risk."
+        },
+        {
+            "drug": "Isoniazid",
+            "severity": "High",
+            "description": "Increased hepatotoxicity risk."
+        }
+    ],
+    "Amlodipine": [
+        {
+            "drug": "Simvastatin",
+            "severity": "Moderate",
+            "description": "Limit simvastatin dose to 20mg."
+        },
+        {
+            "drug": "Diltiazem",
+            "severity": "High",
+            "description": "Excessive blood pressure lowering."
+        },
+        {
+            "drug": "Grapefruit",
+            "severity": "Moderate",
+            "description": "May increase amlodipine levels."
+        }
+    ],
+    "Atorvastatin": [
+        {
+            "drug": "Grapefruit",
+            "severity": "Moderate",
+            "description": "May increase statin levels."
+        },
+        {
+            "drug": "Erythromycin",
+            "severity": "High",
+            "description": "Increased myopathy risk."
+        },
+        {
+            "drug": "Diltiazem",
+            "severity": "Moderate",
+            "description": "May increase statin levels."
+        },
+        {
+            "drug": "Fibrates",
+            "severity": "High",
+            "description": "Increased rhabdomyolysis risk."
+        }
+    ],
+    "Prednisone": [
+        {
+            "drug": "NSAIDs",
+            "severity": "High",
+            "description": "Increased GI bleeding risk."
+        },
+        {
+            "drug": "Aspirin",
+            "severity": "High",
+            "description": "Increased GI bleeding risk."
+        },
+        {
+            "drug": "Ibuprofen",
+            "severity": "High",
+            "description": "Increased GI bleeding risk."
+        },
+        {
+            "drug": "Metformin",
+            "severity": "Moderate",
+            "description": "May increase blood sugar."
+        },
+        {
+            "drug": "Warfarin",
+            "severity": "Moderate",
+            "description": "May affect anticoagulation."
+        }
+    ],
+    "Levothyroxine": [
+        {
+            "drug": "Calcium",
+            "severity": "Moderate",
+            "description": "Take 4 hours apart. Reduces absorption."
+        },
+        {
+            "drug": "Iron",
+            "severity": "Moderate",
+            "description": "Take 4 hours apart. Reduces absorption."
+        },
+        {
+            "drug": "Antacids",
+            "severity": "Moderate",
+            "description": "Reduces levothyroxine absorption."
+        },
+        {
+            "drug": "Omeprazole",
+            "severity": "Moderate",
+            "description": "May reduce absorption."
+        }
+    ],
+    "Lisinopril": [
+        {
+            "drug": "Potassium",
+            "severity": "High",
+            "description": "Risk of dangerous high potassium."
+        },
+        {
+            "drug": "Spironolactone",
+            "severity": "High",
+            "description": "Severe hyperkalemia risk."
+        },
+        {
+            "drug": "NSAIDs",
+            "severity": "Moderate",
+            "description": "Reduced effectiveness + kidney risk."
+        }
+    ],
+    "Losartan": [
+        {
+            "drug": "Potassium",
+            "severity": "High",
+            "description": "Risk of hyperkalemia."
+        },
+        {
+            "drug": "NSAIDs",
+            "severity": "Moderate",
+            "description": "Reduced effectiveness."
+        },
+        {
+            "drug": "Lithium",
+            "severity": "High",
+            "description": "Increased lithium levels."
+        }
+    ],
+    "Gabapentin": [
+        {
+            "drug": "Opioids",
+            "severity": "High",
+            "description": "Increased sedation and respiratory depression."
+        },
+        {
+            "drug": "Morphine",
+            "severity": "High",
+            "description": "Enhanced CNS depression."
+        },
+        {
+            "drug": "Alcohol",
+            "severity": "High",
+            "description": "Increased sedation."
+        },
+        {
+            "drug": "Antacids",
+            "severity": "Moderate",
+            "description": "Take 2 hours apart."
+        }
+    ],
+    "Tramadol": [
+        {
+            "drug": "SSRIs",
+            "severity": "High",
+            "description": "Serotonin syndrome risk."
+        },
+        {
+            "drug": "Wellbutrin",
+            "severity": "High",
+            "description": "Increased seizure risk."
+        },
+        {
+            "drug": "MAOIs",
+            "severity": "Critical",
+            "description": "LIFE-THREATENING. Avoid."
+        },
+        {
+            "drug": "Alcohol",
+            "severity": "High",
+            "description": "Increased CNS depression."
+        }
+    ],
+    "Clopidogrel": [
+        {
+            "drug": "Omeprazole",
+            "severity": "High",
+            "description": "Reduced antiplatelet effect."
+        },
+        {
+            "drug": "Aspirin",
+            "severity": "Moderate",
+            "description": "Often used together, but bleeding risk."
+        },
+        {
+            "drug": "NSAIDs",
+            "severity": "High",
+            "description": "Major bleeding risk."
+        }
+    ],
+    "Fluoxetine": [
+        {
+            "drug": "MAOIs",
+            "severity": "Critical",
+            "description": "LIFE-THREATENING serotonin syndrome."
+        },
+        {
+            "drug": "Tramadol",
+            "severity": "High",
+            "description": "Serotonin syndrome risk."
+        },
+        {
+            "drug": "Wellbutrin",
+            "severity": "Moderate",
+            "description": "May increase bupropion levels."
+        },
+        {
+            "drug": "Warfarin",
+            "severity": "Moderate",
+            "description": "May increase bleeding risk."
+        }
+    ],
+    "Sertraline": [
+        {
+            "drug": "MAOIs",
+            "severity": "Critical",
+            "description": "LIFE-THREATENING. Wait 14 days."
+        },
+        {
+            "drug": "Tramadol",
+            "severity": "High",
+            "description": "Serotonin syndrome risk."
+        },
+        {
+            "drug": "Warfarin",
+            "severity": "Moderate",
+            "description": "Increased bleeding risk."
+        }
+    ],
+    "Alprazolam": [
+        {
+            "drug": "Opioids",
+            "severity": "Critical",
+            "description": "FATAL respiratory depression risk."
+        },
+        {
+            "drug": "Alcohol",
+            "severity": "High",
+            "description": "Dangerous sedation."
+        },
+        {
+            "drug": "Diltiazem",
+            "severity": "Moderate",
+            "description": "May increase alprazolam levels."
+        }
+    ],
+    "Lorazepam": [
+        {
+            "drug": "Opioids",
+            "severity": "Critical",
+            "description": "FATAL respiratory depression."
+        },
+        {
+            "drug": "Alcohol",
+            "severity": "High",
+            "description": "Dangerous oversedation."
+        }
+    ]
+}

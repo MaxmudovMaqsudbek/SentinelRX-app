@@ -1,0 +1,28 @@
+// Top ~300 common US medications for instant predictive/autocomplete usage.
+export const TOP_MEDICATIONS = [
+    "Abilify", "Acetaminophen", "Acyclovir", "Adderall", "Advil", "Aleve", "Albuterol", "Allopurinol", "Alprazolam", "Ambien", "Amitriptyline", "Amlodipine", "Amoxicillin", "Ativan", "Atorvastatin", "Azithromycin",
+    "Baclofen", "Bactrim", "Benadryl", "Benicar", "Benzonatate", "Brilinta", "Buprenorphine", "Bupropion", "Buspirone",
+    "Carvedilol", "Celebrex", "Celexa", "Cephalexin", "Cialis", "Ciprofloxacin", "Citalopram", "Clindamycin", "Clonazepam", "Clonidine", "Clopidogrel", "Codeine", "Concerta", "Crestor", "Cyclobenzaprine", "Cymbalta",
+    "Depakote", "Desyrel", "Diazepam", "Diclofenac", "Diflucan", "Digoxin", "Dilaudid", "Diltiazem", "Diovan", "Diphenhydramine", "Doxycycline", "Duloxetine",
+    "Effexor", "Eliquis", "Enalapril", "Endocet", "Escitalopram", "Estradiol", "Eszopiclone", "Ezetimibe",
+    "Famotidine", "Farxiga", "Fentanyl", "Fish Oil", "Flagyl", "Flexeril", "Flomax", "Flonase", "Flovent", "Fluconazole", "Fluoxetine", "Fluticasone", "Folic Acid", "Fosamax", "Furosemide",
+    "Gabapentin", "Gemfibrozil", "Glimepiride", "Glipizide", "Glucophage", "Glyburide", "Guaifenesin",
+    "Haldol", "Humalog", "Humira", "Hydrochlorothiazide", "Hydrocodone", "Hydrocortisone", "Hydromorphone", "Hydroxychloroquine", "Hydroxyzine",
+    "Ibuprofen", "Imdur", "Imitrex", "Insulin", "Invokana", "Isosorbide",
+    "Januvia", "Jardiance",
+    "Keflex", "Keppra", "Klonopin", "Klor-Con",
+    "Lamictal", "Lamotrigine", "Lantus", "Lasix", "Latuda", "Levaquin", "Levemir", "Levetiracetam", "Levothyroxine", "Lexapro", "Lidocaine", "Lipitor", "Lisinopril", "Lithium", "Loratadine", "Lorazepam", "Losartan", "Lotensin", "Lovastatin", "Lyrica",
+    "Macrobid", "Melatonin", "Meloxicam", "Metformin", "Methadone", "Methocarbamol", "Methotrexate", "Methylphenidate", "Methylprednisolone", "Metoprolol", "Mirtazapine", "Modafinil", "Morphine", "Motrin", "Mucinex", "Multivitamin",
+    "Namenda", "Naprosyn", "Naproxen", "Neurontin", "Nexium", "Niaspan", "Nifedipine", "Nitrofurantoin", "Nitroglycerin", "Norco", "Norvasc", "Novolog", "Nystatin",
+    "Olanzapine", "Omeprazole", "Ondansetron", "Onglyza", "Oxycodone", "OxyContin",
+    "Pantoprazole", "Paroxetine", "Paxil", "Penicillin", "Percocet", "Phenergan", "Phentermine", "Plaquenil", "Plavix", "Potassium Chloride", "Pradaxa", "Pravastatin", "Prednisolone", "Prednisone", "Premarin", "Prilosec", "Prinivil", "ProAir", "Promethazine", "Propranolol", "Prosac", "Protonix", "Prozac",
+    "Qvar",
+    "Ranitidine", "Reglan", "Relafen", "Remeron", "Renvela", "Restoril", "Rexulti", "Risperdal", "Risperidone", "Ritalin", "Robaxin", "Rosuvastatin",
+    "Seroquel", "Sertraline", "Sildenafil", "Simvastatin", "Singulair", "Soma", "Spiriva", "Spironolactone", "Suboxone", "Sumatriptan", "Symbicort", "Synthroid",
+    "Tamiflu", "Tamsulosin", "Tazorac", "Tegretol", "Temazepam", "Tenormin", "Testosterone", "Tetracycline", "Topamax", "Topiramate", "Toprol", "Toradol", "Tramadol", "Trazodone", "Tricor", "Trileptal", "Trintellix", "Tylenol",
+    "Ultram",
+    "Valacyclovir", "Valium", "Valsartan", "Vasotec", "Venlafaxine", "Ventolin", "Viagra", "Vicodin", "Victoza", "Vitamin D", "Voltaren", "Vyvanse",
+    "Warfarin", "Wellbutrin",
+    "Xanax", "Xarelto",
+    "Zanaflex", "Zantac", "Zestril", "Zetia", "Zithromax", "Zocor", "Zofran", "Zoloft", "Zolpidem", "Zomig", "Zyloprim", "Zyrtec"
+];

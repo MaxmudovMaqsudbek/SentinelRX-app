@@ -82,13 +82,15 @@ export default function AIAssistantScreen() {
         // Scroll to bottom
         setTimeout(() => scrollViewRef.current?.scrollToEnd({ animated: true }), 100);
 
-        // 2. Prepare Context
-        const lastScan = scanHistory.length > 0 ? scanHistory[0].medicationName : "None";
+        // 2. Prepare Context - Extract all required fields for the AI assistant
         const locationContext = "Uzbekistan"; // Mock for now, or hook into LocationContext if available
         
         const contextPayload = {
             profile: JSON.stringify(userProfile || {}),
-            history: `Last Scan: ${lastScan}. Allergies: ${userProfile?.allergies.join(', ')}.`,
+            allergies: userProfile?.allergies || [],
+            medications: scanHistory.slice(0, 10).map(scan => scan.medicationName), // Recent medications from scan history
+            conditions: userProfile?.chronicConditions || [],
+            recentScans: scanHistory.slice(0, 5).map(scan => scan.medicationName),
             language: userProfile?.language || "en",
             location: locationContext
         };

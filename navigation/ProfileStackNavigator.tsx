@@ -5,6 +5,8 @@ import RewardsScreen from "@/screens/RewardsScreen";
 import SettingsScreen from "@/screens/SettingsScreen";
 import FamilyPanelScreen from "@/screens/FamilyPanelScreen";
 import TravelScreen from "@/screens/TravelScreen";
+import MedicalVaultScreen from "@/screens/MedicalVaultScreen";
+import DoctorConnectScreen from "@/screens/DoctorConnectScreen";
 import { useTheme } from "@/hooks/useTheme";
 import { getCommonScreenOptions } from "@/navigation/screenOptions";
 
@@ -14,6 +16,8 @@ export type ProfileStackParamList = {
   Settings: undefined;
   FamilyPanel: undefined;
   Travel: undefined;
+  MedicalVault: undefined;
+  DoctorConnect: undefined;
 };
 
 const Stack = createNativeStackNavigator<ProfileStackParamList>();
@@ -48,6 +52,17 @@ export default function ProfileStackNavigator() {
         component={TravelScreen}
         options={{ headerTitle: "Travel Mode" }}
       />
+      <Stack.Screen
+        name="MedicalVault"
+        component={MedicalVaultScreen}
+        options={{ headerTitle: "Medical Vault" }}
+      />
+      <Stack.Screen
+        name="DoctorConnect"
+        component={DoctorConnectScreen}
+        options={{ headerTitle: "Doctor Connect" }}
+      />
     </Stack.Navigator>
   );
 }
+

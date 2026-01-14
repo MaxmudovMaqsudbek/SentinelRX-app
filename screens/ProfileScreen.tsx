@@ -133,6 +133,66 @@ export default function ProfileScreen({ navigation }: ProfileScreenProps) {
       />
       
       <Spacer height={Spacing.xl} />
+
+      {/* NEW FEATURE: Medical Vault */}
+      <Pressable onPress={() => navigation.navigate("MedicalVault")}>
+        <LinearGradient
+            colors={['#6366F1', '#8B5CF6']}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 0 }}
+            style={[styles.profileCard, Shadows.medium, { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', overflow: 'hidden' }]}
+        >
+             <Feather name="shield" size={120} color="rgba(255,255,255,0.05)" style={{position: 'absolute', right: -20, bottom: -20}} />
+             
+             <View style={{flexDirection: 'row', alignItems: 'center'}}>
+                 <View style={{width: 48, height: 48, borderRadius: 24, backgroundColor: 'rgba(255,255,255,0.15)', alignItems: 'center', justifyContent: 'center', marginRight: Spacing.md, borderWidth: 1, borderColor: 'rgba(255,255,255,0.2)'}}>
+                     <Feather name="folder" size={24} color="#FFF" />
+                 </View>
+                 <View>
+                     <View style={{flexDirection: 'row', alignItems: 'center', gap: 6}}>
+                        <ThemedText type="h4" style={{color: '#FFF'}}>Medical Vault</ThemedText>
+                        <View style={{backgroundColor: '#10B981', paddingHorizontal: 6, paddingVertical: 2, borderRadius: 4}}>
+                            <ThemedText type="small" style={{color: '#FFF', fontSize: 10, fontWeight: 'bold'}}>NEW</ThemedText>
+                        </View>
+                     </View>
+                     <ThemedText type="caption" style={{color: 'rgba(255,255,255,0.8)'}}>086-Forma, Documents & AI Summary</ThemedText>
+                 </View>
+             </View>
+             <Feather name="chevron-right" size={24} color="#FFF" />
+        </LinearGradient>
+      </Pressable>
+      
+      <Spacer height={Spacing.md} />
+
+      {/* NEW FEATURE: Doctor Connect */}
+      <Pressable onPress={() => navigation.navigate("DoctorConnect")}>
+        <LinearGradient
+            colors={['#F59E0B', '#D97706']}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 0 }}
+            style={[styles.profileCard, Shadows.medium, { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', overflow: 'hidden' }]}
+        >
+             <Feather name="users" size={120} color="rgba(255,255,255,0.05)" style={{position: 'absolute', right: -20, bottom: -20}} />
+             
+             <View style={{flexDirection: 'row', alignItems: 'center'}}>
+                 <View style={{width: 48, height: 48, borderRadius: 24, backgroundColor: 'rgba(255,255,255,0.15)', alignItems: 'center', justifyContent: 'center', marginRight: Spacing.md, borderWidth: 1, borderColor: 'rgba(255,255,255,0.2)'}}>
+                     <Feather name="user-plus" size={24} color="#FFF" />
+                 </View>
+                 <View>
+                     <View style={{flexDirection: 'row', alignItems: 'center', gap: 6}}>
+                        <ThemedText type="h4" style={{color: '#FFF'}}>Doctor Connect</ThemedText>
+                        <View style={{backgroundColor: '#EF4444', paddingHorizontal: 6, paddingVertical: 2, borderRadius: 4}}>
+                            <ThemedText type="small" style={{color: '#FFF', fontSize: 10, fontWeight: 'bold'}}>💊</ThemedText>
+                        </View>
+                     </View>
+                     <ThemedText type="caption" style={{color: 'rgba(255,255,255,0.8)'}}>Find Specialists & Pill Analysis</ThemedText>
+                 </View>
+             </View>
+             <Feather name="chevron-right" size={24} color="#FFF" />
+        </LinearGradient>
+      </Pressable>
+      
+      <Spacer height={Spacing.xl} />
       
       {/* INVESTOR FEATURE: Travel Mode Trigger */}
       <Pressable onPress={() => navigation.navigate("Travel")}>

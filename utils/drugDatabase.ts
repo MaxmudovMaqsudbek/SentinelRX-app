@@ -17,6 +17,7 @@ export interface DrugInfo {
   category: string;
   price?: number; // Added price for static DB
   currency?: string;
+  barcode?: string;
 }
 
 export interface DrugPriceData {

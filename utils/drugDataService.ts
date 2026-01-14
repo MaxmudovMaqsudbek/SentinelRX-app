@@ -564,6 +564,44 @@ export async function identifyBarcodeUnified(data: string, type: string): Promis
         };
     }
 
+    // ACICLOVIR-BELMED 200mg - Barcode: 4810133012797
+    if (normalizedData === "4810133012797" || normalizedData.includes("4810133012797") || data.includes("4810133012797")) {
+        console.log("[SmartScanner] ✅ DEMO: Recognized Aciclovir-Belmed barcode!");
+        return {
+            id: "uz_demo_aciclovir_belmed",
+            name: "Aciclovir-Belmed",
+            genericName: "Aciclovir",
+            manufacturer: "Belmedpreparaty (Belarus)",
+            dosage: "200mg",
+            shape: "Round",
+            color: "White",
+            imprint: "",
+            description: "Antiviral medication used to treat herpes simplex virus infections, chickenpox, and shingles. It works by stopping the spread of the virus in the body. Effective for cold sores and genital herpes.",
+            warnings: [
+                "Drink plenty of water",
+                "Use with caution if you have kidney problems",
+                "Complete full course",
+                "May cause dizziness - drive with caution"
+            ],
+            sideEffects: [
+                "Nausea and vomiting",
+                "Headache",
+                "Dizziness",
+                "Fatigue"
+            ],
+            interactions: [
+                "Probenecid",
+                "Nephrotoxic drugs"
+            ],
+            pregnancyCategory: "B",
+            category: "Prescription",
+            packaging: "Box of 20 Tablets",
+            expirationDate: "2025-10-01", // Match image: 10 25
+            batchNumber: "1661023",      // Match image
+            labelSource: "Local"
+        };
+    }
+
     // ==========================================================================
     // FALLBACK: Smart Engine Logic for Other Barcodes
     // ==========================================================================
